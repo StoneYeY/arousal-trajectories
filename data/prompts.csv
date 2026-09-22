@@ -1,0 +1,71 @@
+prompt_id,group,category,prompt,in_decoding_sweep
+anxiolytic.sleep.p0,anxiolytic,sleep,calm peaceful music for deep sleep,True
+anxiolytic.sleep.p1,anxiolytic,sleep,soft soothing lullaby to help me fall asleep,True
+anxiolytic.sleep.p2,anxiolytic,sleep,"gentle ambient sleep music, very slow and quiet",False
+anxiolytic.sleep.p3,anxiolytic,sleep,relaxing bedtime music with warm soft tones,False
+anxiolytic.sleep.p4,anxiolytic,sleep,quiet dreamy music for sleeping through the night,False
+anxiolytic.sleep.p5,anxiolytic,sleep,slow hushed music to drift off to sleep,False
+anxiolytic.sleep.p6,anxiolytic,sleep,tender nighttime music for restful sleep,False
+anxiolytic.sleep.p7,anxiolytic,sleep,soft slow instrumental for winding down at bedtime,False
+anxiolytic.sleep.p8,anxiolytic,sleep,tranquil sleep sounds with gentle melody,False
+anxiolytic.sleep.p9,anxiolytic,sleep,delicate quiet music to help a baby sleep,False
+anxiolytic.anxiety_relief.p0,anxiolytic,anxiety_relief,calming music to relieve anxiety and stress,True
+anxiolytic.anxiety_relief.p1,anxiolytic,anxiety_relief,soothing music for panic and anxious thoughts,True
+anxiolytic.anxiety_relief.p2,anxiolytic,anxiety_relief,peaceful music to calm my nerves,False
+anxiolytic.anxiety_relief.p3,anxiolytic,anxiety_relief,gentle reassuring music for stress relief,False
+anxiolytic.anxiety_relief.p4,anxiolytic,anxiety_relief,tranquil music to ease tension and worry,False
+anxiolytic.anxiety_relief.p5,anxiolytic,anxiety_relief,comforting slow music for when I feel overwhelmed,False
+anxiolytic.anxiety_relief.p6,anxiolytic,anxiety_relief,soft grounding music to slow my racing heart,False
+anxiolytic.anxiety_relief.p7,anxiolytic,anxiety_relief,warm gentle music to feel safe and relaxed,False
+anxiolytic.anxiety_relief.p8,anxiolytic,anxiety_relief,quiet consoling music for a stressful day,False
+anxiolytic.anxiety_relief.p9,anxiolytic,anxiety_relief,serene music that helps anxiety melt away,False
+anxiolytic.meditation.p0,anxiolytic,meditation,slow meditation music with soft sustained tones,True
+anxiolytic.meditation.p1,anxiolytic,meditation,peaceful ambient music for mindfulness meditation,True
+anxiolytic.meditation.p2,anxiolytic,meditation,"serene meditative soundscape, gentle and warm",False
+anxiolytic.meditation.p3,anxiolytic,meditation,"calm breathing meditation music, very slow tempo",False
+anxiolytic.meditation.p4,anxiolytic,meditation,still and spacious ambient music for deep relaxation,False
+anxiolytic.meditation.p5,anxiolytic,meditation,floating ambient drone for quiet meditation,False
+anxiolytic.meditation.p6,anxiolytic,meditation,gentle zen music for a calm clear mind,False
+anxiolytic.meditation.p7,anxiolytic,meditation,soft spa music for deep rest and healing,False
+anxiolytic.meditation.p8,anxiolytic,meditation,slow flowing ambient music for yoga relaxation,False
+anxiolytic.meditation.p9,anxiolytic,meditation,minimal peaceful tones for silent contemplation,False
+anxiolytic.study_calm.p0,anxiolytic,study_calm,soft calm background music for focused studying,True
+anxiolytic.study_calm.p1,anxiolytic,study_calm,gentle low-key instrumental music for concentration,True
+anxiolytic.study_calm.p2,anxiolytic,study_calm,quiet mellow music to stay relaxed while working,False
+anxiolytic.study_calm.p3,anxiolytic,study_calm,smooth peaceful background music without distractions,False
+anxiolytic.study_calm.p4,anxiolytic,study_calm,light airy calm instrumental for reading,False
+anxiolytic.study_calm.p5,anxiolytic,study_calm,unobtrusive soft music for deep focus,False
+anxiolytic.study_calm.p6,anxiolytic,study_calm,calm minimal piano for quiet study sessions,False
+anxiolytic.study_calm.p7,anxiolytic,study_calm,relaxed slow lofi instrumental for homework,False
+anxiolytic.study_calm.p8,anxiolytic,study_calm,peaceful mellow background for writing,False
+anxiolytic.study_calm.p9,anxiolytic,study_calm,soothing steady music for a calm workday,False
+anxiolytic.nature_calm.p0,anxiolytic,nature_calm,gentle rain sounds with soft calming piano,True
+anxiolytic.nature_calm.p1,anxiolytic,nature_calm,peaceful forest ambience with quiet warm pads,True
+anxiolytic.nature_calm.p2,anxiolytic,nature_calm,calm ocean waves with slow soothing melody,False
+anxiolytic.nature_calm.p3,anxiolytic,nature_calm,"soft wind and distant chimes, deeply relaxing",False
+anxiolytic.nature_calm.p4,anxiolytic,nature_calm,quiet stream sounds with gentle acoustic guitar,False
+anxiolytic.nature_calm.p5,anxiolytic,nature_calm,relaxing rainfall with warm ambient drones,False
+anxiolytic.nature_calm.p6,anxiolytic,nature_calm,serene night crickets with soft slow synth,False
+anxiolytic.nature_calm.p7,anxiolytic,nature_calm,tranquil birdsong morning with mellow piano,False
+anxiolytic.nature_calm.p8,anxiolytic,nature_calm,soothing thunderstorm far away with calm strings,False
+anxiolytic.nature_calm.p9,anxiolytic,nature_calm,"still lake at dawn, airy peaceful soundscape",False
+controls.neutral.p0,controls,neutral,instrumental music,False
+controls.neutral.p1,controls,neutral,a piece of background music,False
+controls.neutral.p2,controls,neutral,melodic instrumental track,False
+controls.neutral.p3,controls,neutral,an instrumental composition,False
+controls.neutral.p4,controls,neutral,a musical piece with melody and accompaniment,False
+controls.neutral.p5,controls,neutral,a song without vocals,False
+controls.neutral.p6,controls,neutral,a short instrumental tune,False
+controls.neutral.p7,controls,neutral,music with instruments,False
+controls.neutral.p8,controls,neutral,an original instrumental piece,False
+controls.neutral.p9,controls,neutral,a melodic composition for small ensemble,False
+controls.high_arousal.p0,controls,high_arousal,intense energetic workout music with driving beat,True
+controls.high_arousal.p1,controls,high_arousal,fast aggressive electronic dance music,True
+controls.high_arousal.p2,controls,high_arousal,"epic dramatic action movie music, loud and powerful",True
+controls.high_arousal.p3,controls,high_arousal,high energy upbeat party music,True
+controls.high_arousal.p4,controls,high_arousal,fast exciting drum heavy music to get pumped up,True
+controls.high_arousal.p5,controls,high_arousal,adrenaline pumping racing game music,True
+controls.high_arousal.p6,controls,high_arousal,loud powerful rock music with heavy drums,True
+controls.high_arousal.p7,controls,high_arousal,explosive festival EDM with hard drops,True
+controls.high_arousal.p8,controls,high_arousal,urgent intense chase scene music,True
+controls.high_arousal.p9,controls,high_arousal,thunderous battle music with pounding percussion,True

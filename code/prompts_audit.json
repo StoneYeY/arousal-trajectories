@@ -1,0 +1,94 @@
+{
+ "design_note": "Anxiolytic prompt set for auditing text-to-music models. Categories mirror common consumer use (sleep, anxiety relief, meditation, study calm) plus matched control prompts (neutral and high-arousal). 10 naturalistic paraphrases per category: inference is clustered by prompt, so prompt-level n drives statistical power, not clips-per-prompt.",
+ "anxiolytic": {
+  "sleep": [
+   "calm peaceful music for deep sleep",
+   "soft soothing lullaby to help me fall asleep",
+   "gentle ambient sleep music, very slow and quiet",
+   "relaxing bedtime music with warm soft tones",
+   "quiet dreamy music for sleeping through the night",
+   "slow hushed music to drift off to sleep",
+   "tender nighttime music for restful sleep",
+   "soft slow instrumental for winding down at bedtime",
+   "tranquil sleep sounds with gentle melody",
+   "delicate quiet music to help a baby sleep"
+  ],
+  "anxiety_relief": [
+   "calming music to relieve anxiety and stress",
+   "soothing music for panic and anxious thoughts",
+   "peaceful music to calm my nerves",
+   "gentle reassuring music for stress relief",
+   "tranquil music to ease tension and worry",
+   "comforting slow music for when I feel overwhelmed",
+   "soft grounding music to slow my racing heart",
+   "warm gentle music to feel safe and relaxed",
+   "quiet consoling music for a stressful day",
+   "serene music that helps anxiety melt away"
+  ],
+  "meditation": [
+   "slow meditation music with soft sustained tones",
+   "peaceful ambient music for mindfulness meditation",
+   "serene meditative soundscape, gentle and warm",
+   "calm breathing meditation music, very slow tempo",
+   "still and spacious ambient music for deep relaxation",
+   "floating ambient drone for quiet meditation",
+   "gentle zen music for a calm clear mind",
+   "soft spa music for deep rest and healing",
+   "slow flowing ambient music for yoga relaxation",
+   "minimal peaceful tones for silent contemplation"
+  ],
+  "study_calm": [
+   "soft calm background music for focused studying",
+   "gentle low-key instrumental music for concentration",
+   "quiet mellow music to stay relaxed while working",
+   "smooth peaceful background music without distractions",
+   "light airy calm instrumental for reading",
+   "unobtrusive soft music for deep focus",
+   "calm minimal piano for quiet study sessions",
+   "relaxed slow lofi instrumental for homework",
+   "peaceful mellow background for writing",
+   "soothing steady music for a calm workday"
+  ],
+  "nature_calm": [
+   "gentle rain sounds with soft calming piano",
+   "peaceful forest ambience with quiet warm pads",
+   "calm ocean waves with slow soothing melody",
+   "soft wind and distant chimes, deeply relaxing",
+   "quiet stream sounds with gentle acoustic guitar",
+   "relaxing rainfall with warm ambient drones",
+   "serene night crickets with soft slow synth",
+   "tranquil birdsong morning with mellow piano",
+   "soothing thunderstorm far away with calm strings",
+   "still lake at dawn, airy peaceful soundscape"
+  ]
+ },
+ "controls": {
+  "neutral": [
+   "instrumental music",
+   "a piece of background music",
+   "melodic instrumental track",
+   "an instrumental composition",
+   "a musical piece with melody and accompaniment",
+   "a song without vocals",
+   "a short instrumental tune",
+   "music with instruments",
+   "an original instrumental piece",
+   "a melodic composition for small ensemble"
+  ],
+  "high_arousal": [
+   "intense energetic workout music with driving beat",
+   "fast aggressive electronic dance music",
+   "epic dramatic action movie music, loud and powerful",
+   "high energy upbeat party music",
+   "fast exciting drum heavy music to get pumped up",
+   "adrenaline pumping racing game music",
+   "loud powerful rock music with heavy drums",
+   "explosive festival EDM with hard drops",
+   "urgent intense chase scene music",
+   "thunderous battle music with pounding percussion"
+  ]
+ },
+ "per_prompt_generations": 12,
+ "duration_s": 45,
+ "notes": "70 prompts x 12 gens = 840 clips at 45 s (matches DEAM excerpt length -> no train/score duration mismatch). Audited model: stabilityai/stable-audio-3-medium (2B DiT latent diffusion, May 2025, Stability AI Community License; substitution from stable-audio-open-1.0 decided by Stone 2026-08-30). Inference: cluster bootstrap by prompt."
+}

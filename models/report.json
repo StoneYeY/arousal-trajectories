@@ -1,0 +1,261 @@
+{
+ "n_songs": 1795,
+ "seed": 42,
+ "results": {
+  "arousal_mean": {
+   "hand/ridge": {
+    "cv_pearson_r_mean": 0.6800962773667438,
+    "cv_pearson_r_std": 0.027051143157687814,
+    "n_features": 17
+   },
+   "hand/hgb": {
+    "cv_pearson_r_mean": 0.7047794410688103,
+    "cv_pearson_r_std": 0.03284846906531414,
+    "n_features": 17
+   },
+   "egemaps/ridge": {
+    "cv_pearson_r_mean": 0.65946889828181,
+    "cv_pearson_r_std": 0.031922451764656655,
+    "n_features": 88
+   },
+   "egemaps/hgb": {
+    "cv_pearson_r_mean": 0.7388310095195376,
+    "cv_pearson_r_std": 0.011381067607096184,
+    "n_features": 88
+   },
+   "hand+egemaps/ridge": {
+    "cv_pearson_r_mean": 0.6647586043881402,
+    "cv_pearson_r_std": 0.08372477128908283,
+    "n_features": 105
+   },
+   "hand+egemaps/hgb": {
+    "cv_pearson_r_mean": 0.7514494766937061,
+    "cv_pearson_r_std": 0.011082702075849245,
+    "n_features": 105
+   },
+   "cv_selected": "hand+egemaps/hgb",
+   "test_once": {
+    "pearson_r": 0.7380831242197122,
+    "r2": 0.5364783725760727,
+    "ccc": 0.7178168686196844,
+    "rmse": 0.8559275919748581
+   },
+   "permutation_importance_hand_hgb": [
+    {
+     "feature": "spectral_flatness_mean",
+     "mean": 0.1822205920849754,
+     "std": 0.02761139660669211
+    },
+    {
+     "feature": "attack_slope_mean",
+     "mean": 0.13764292824736424,
+     "std": 0.025754652632244864
+    },
+    {
+     "feature": "zcr_mean",
+     "mean": 0.09279910243948084,
+     "std": 0.01612726474044231
+    },
+    {
+     "feature": "onset_density",
+     "mean": 0.08821735512080413,
+     "std": 0.016256366120125564
+    },
+    {
+     "feature": "spectral_centroid_std",
+     "mean": 0.07053879862074716,
+     "std": 0.018623037078596655
+    },
+    {
+     "feature": "rms_mean",
+     "mean": 0.06976180008750063,
+     "std": 0.014461140772758023
+    },
+    {
+     "feature": "rms_std",
+     "mean": 0.044798566108047236,
+     "std": 0.00958209236871633
+    },
+    {
+     "feature": "spectral_rolloff_mean",
+     "mean": 0.02498605925853963,
+     "std": 0.009369874738029565
+    },
+    {
+     "feature": "pulse_clarity",
+     "mean": 0.020341154523333838,
+     "std": 0.01032550764756681
+    },
+    {
+     "feature": "spectral_flux_std",
+     "mean": 0.016271381216490594,
+     "std": 0.008297678459791973
+    },
+    {
+     "feature": "f0_median",
+     "mean": 0.010585739816848067,
+     "std": 0.007805509606784077
+    },
+    {
+     "feature": "rms_db_range",
+     "mean": 0.010064136089680865,
+     "std": 0.00712182875094619
+    },
+    {
+     "feature": "roughness",
+     "mean": 0.007768319045729266,
+     "std": 0.009019113555876274
+    },
+    {
+     "feature": "mode_majorness",
+     "mean": 0.0070585918811357,
+     "std": 0.00804084144026807
+    },
+    {
+     "feature": "spectral_flux_mean",
+     "mean": 0.0036672977961056618,
+     "std": 0.005306662970042973
+    },
+    {
+     "feature": "spectral_centroid_mean",
+     "mean": 0.001428251574393241,
+     "std": 0.004920376283530185
+    },
+    {
+     "feature": "tempo_bpm",
+     "mean": -3.091388486883284e-05,
+     "std": 0.0030407985826971075
+    }
+   ],
+   "deploy_vs_independent_heldout_r": 0.8358674605936912
+  },
+  "valence_mean": {
+   "hand/ridge": {
+    "cv_pearson_r_mean": 0.6636489468678105,
+    "cv_pearson_r_std": 0.016142666369810016,
+    "n_features": 17
+   },
+   "hand/hgb": {
+    "cv_pearson_r_mean": 0.6694394322002408,
+    "cv_pearson_r_std": 0.027255080391407092,
+    "n_features": 17
+   },
+   "egemaps/ridge": {
+    "cv_pearson_r_mean": 0.663177495677688,
+    "cv_pearson_r_std": 0.02430894146259624,
+    "n_features": 88
+   },
+   "egemaps/hgb": {
+    "cv_pearson_r_mean": 0.7111512163947363,
+    "cv_pearson_r_std": 0.020374032253916034,
+    "n_features": 88
+   },
+   "hand+egemaps/ridge": {
+    "cv_pearson_r_mean": 0.6746292071458695,
+    "cv_pearson_r_std": 0.02526523048406301,
+    "n_features": 105
+   },
+   "hand+egemaps/hgb": {
+    "cv_pearson_r_mean": 0.7295390815010995,
+    "cv_pearson_r_std": 0.018563915323040806,
+    "n_features": 105
+   },
+   "cv_selected": "hand+egemaps/hgb",
+   "test_once": {
+    "pearson_r": 0.6950690348535077,
+    "r2": 0.46327905566001526,
+    "ccc": 0.6713959727916062,
+    "rmse": 0.8391248654329182
+   },
+   "permutation_importance_hand_hgb": [
+    {
+     "feature": "zcr_mean",
+     "mean": 0.12302409659670435,
+     "std": 0.017375529856305288
+    },
+    {
+     "feature": "spectral_flatness_mean",
+     "mean": 0.10003220462818745,
+     "std": 0.028599109996642592
+    },
+    {
+     "feature": "spectral_centroid_std",
+     "mean": 0.07097804136863756,
+     "std": 0.017812195110815107
+    },
+    {
+     "feature": "attack_slope_mean",
+     "mean": 0.06495972457046527,
+     "std": 0.02414427770037395
+    },
+    {
+     "feature": "onset_density",
+     "mean": 0.05427448376568722,
+     "std": 0.014946019376440078
+    },
+    {
+     "feature": "rms_mean",
+     "mean": 0.046156711137658124,
+     "std": 0.011602788010406396
+    },
+    {
+     "feature": "f0_median",
+     "mean": 0.02859707019463828,
+     "std": 0.01303889247570776
+    },
+    {
+     "feature": "pulse_clarity",
+     "mean": 0.023837930776639454,
+     "std": 0.018539930632367894
+    },
+    {
+     "feature": "spectral_rolloff_mean",
+     "mean": 0.021830580031433167,
+     "std": 0.01296911640752309
+    },
+    {
+     "feature": "spectral_centroid_mean",
+     "mean": 0.017342998110017698,
+     "std": 0.00839042830807543
+    },
+    {
+     "feature": "spectral_flux_std",
+     "mean": 0.017038322633327246,
+     "std": 0.007103107779675965
+    },
+    {
+     "feature": "rms_std",
+     "mean": 0.014577716928023088,
+     "std": 0.014502653143558215
+    },
+    {
+     "feature": "roughness",
+     "mean": 0.013502409333439724,
+     "std": 0.007414813737170511
+    },
+    {
+     "feature": "mode_majorness",
+     "mean": 0.004056576926510946,
+     "std": 0.00860818612824763
+    },
+    {
+     "feature": "tempo_bpm",
+     "mean": -0.0007239100556548972,
+     "std": 0.005199779279976694
+    },
+    {
+     "feature": "spectral_flux_mean",
+     "mean": -0.002640464500853612,
+     "std": 0.008637456639414901
+    },
+    {
+     "feature": "rms_db_range",
+     "mean": -0.0062722476327182865,
+     "std": 0.0089666182519011
+    }
+   ],
+   "deploy_vs_independent_heldout_r": 0.8473566654368654
+  }
+ },
+ "protocol": "model selection by 5-fold CV on train only; held-out test evaluated once for the CV-winner"
+}

@@ -1,0 +1,42 @@
+{
+ "design_note": "Decoding-config sweep subset: 10 calm (2/category) + 10 high-arousal.",
+ "anxiolytic": {
+  "sleep": [
+   "calm peaceful music for deep sleep",
+   "soft soothing lullaby to help me fall asleep"
+  ],
+  "anxiety_relief": [
+   "calming music to relieve anxiety and stress",
+   "soothing music for panic and anxious thoughts"
+  ],
+  "meditation": [
+   "slow meditation music with soft sustained tones",
+   "peaceful ambient music for mindfulness meditation"
+  ],
+  "study_calm": [
+   "soft calm background music for focused studying",
+   "gentle low-key instrumental music for concentration"
+  ],
+  "nature_calm": [
+   "gentle rain sounds with soft calming piano",
+   "peaceful forest ambience with quiet warm pads"
+  ]
+ },
+ "controls": {
+  "high_arousal": [
+   "intense energetic workout music with driving beat",
+   "fast aggressive electronic dance music",
+   "epic dramatic action movie music, loud and powerful",
+   "high energy upbeat party music",
+   "fast exciting drum heavy music to get pumped up",
+   "adrenaline pumping racing game music",
+   "loud powerful rock music with heavy drums",
+   "explosive festival EDM with hard drops",
+   "urgent intense chase scene music",
+   "thunderous battle music with pounding percussion"
+  ]
+ },
+ "per_prompt_generations": 4,
+ "duration_s": 45,
+ "notes": "20 prompts x 4 seeds per config."
+}

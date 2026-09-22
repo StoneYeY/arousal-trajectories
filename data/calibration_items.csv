@@ -1,0 +1,33 @@
+item,domain,proxy_arousal,proxy_note,deam_song_id,deam_arousal_label,intended_level,n_raters,listener_mean_1to9,listener_sd
+c01,synthesiser,3.17,deployed proxy on the 12-s segment,,,1.0,19,1.736842105263158,0.9334586382051248
+c02,synthesiser,3.18,deployed proxy on the 12-s segment,,,1.73,18,3.3333333333333335,2.0579830217101063
+c03,synthesiser,3.68,deployed proxy on the 12-s segment,,,2.45,14,2.7142857142857144,1.3259870882635918
+c04,synthesiser,3.67,deployed proxy on the 12-s segment,,,3.18,16,3.125,1.4548768561863463
+c05,synthesiser,4.07,deployed proxy on the 12-s segment,,,3.91,15,3.533333333333333,1.505545305418162
+c06,synthesiser,3.94,deployed proxy on the 12-s segment,,,4.64,14,4.0,1.6172150801252798
+c07,synthesiser,5.04,deployed proxy on the 12-s segment,,,5.36,13,4.0,1.5811388300841898
+c08,synthesiser,5.04,deployed proxy on the 12-s segment,,,6.09,21,6.809523809523809,1.3645163106041502
+c09,synthesiser,4.97,deployed proxy on the 12-s segment,,,6.82,16,7.4375,1.3647344063956182
+c10,synthesiser,5.13,deployed proxy on the 12-s segment,,,7.55,13,8.076923076923077,1.0377490433255412
+c11,synthesiser,5.08,deployed proxy on the 12-s segment,,,8.27,14,8.071428571428571,0.8287419301647447
+c12,synthesiser,5.77,deployed proxy on the 12-s segment,,,9.0,19,8.157894736842104,0.9581903020646578
+g01,stable-audio-3,2.17,deployed proxy on the full 45-s generation (listeners heard the first 20 s),,,,6,2.6666666666666665,0.816496580927726
+g02,stable-audio-3,2.69,deployed proxy on the full 45-s generation (listeners heard the first 20 s),,,,13,1.6923076923076923,1.1094003924504583
+g03,stable-audio-3,2.91,deployed proxy on the full 45-s generation (listeners heard the first 20 s),,,,7,3.142857142857143,1.3451854182690985
+g04,stable-audio-3,3.06,deployed proxy on the full 45-s generation (listeners heard the first 20 s),,,,9,1.5555555555555556,0.5270462766947299
+g05,stable-audio-3,3.21,deployed proxy on the full 45-s generation (listeners heard the first 20 s),,,,9,1.4444444444444444,0.5270462766947299
+g06,stable-audio-3,3.35,deployed proxy on the full 45-s generation (listeners heard the first 20 s),,,,7,2.7142857142857144,0.7559289460184544
+g07,stable-audio-3,3.53,deployed proxy on the full 45-s generation (listeners heard the first 20 s),,,,4,3.25,2.0615528128088303
+g08,stable-audio-3,3.74,deployed proxy on the full 45-s generation (listeners heard the first 20 s),,,,9,2.888888888888889,1.9649710204252662
+g09,stable-audio-3,3.99,deployed proxy on the full 45-s generation (listeners heard the first 20 s),,,,10,3.6,2.065591117977289
+g10,stable-audio-3,4.51,deployed proxy on the full 45-s generation (listeners heard the first 20 s),,,,5,4.4,1.5165750888103102
+g11,stable-audio-3,5.17,deployed proxy on the full 45-s generation (listeners heard the first 20 s),,,,5,7.2,1.3038404810405297
+g12,stable-audio-3,6.94,deployed proxy on the full 45-s generation (listeners heard the first 20 s),,,,12,7.916666666666667,0.90033663737852
+d01,DEAM,2.8802856774767935,"proxy refit without the 8 songs, scored on the 20-s excerpt heard",745,1.6,,14,6.142857142857143,2.14322341192107
+d02,DEAM,3.59458089701366,"proxy refit without the 8 songs, scored on the 20-s excerpt heard",167,3.3,,12,3.6666666666666665,1.3706888336846839
+d03,DEAM,4.118553359956267,"proxy refit without the 8 songs, scored on the 20-s excerpt heard",186,4.0,,12,5.666666666666667,1.9694638556693238
+d04,DEAM,4.155715362341423,"proxy refit without the 8 songs, scored on the 20-s excerpt heard",1749,4.6,,13,5.461538461538462,1.8081014266989472
+d05,DEAM,5.377334511104764,"proxy refit without the 8 songs, scored on the 20-s excerpt heard",500,5.2,,12,8.25,0.8660254037844388
+d06,DEAM,6.337087618727151,"proxy refit without the 8 songs, scored on the 20-s excerpt heard",1379,5.7,,12,7.166666666666667,1.0298573010888745
+d07,DEAM,5.665460979046797,"proxy refit without the 8 songs, scored on the 20-s excerpt heard",1629,6.3,,11,7.2727272727272725,1.2720777563426766
+d08,DEAM,6.131757396090484,"proxy refit without the 8 songs, scored on the 20-s excerpt heard",343,8.1,,10,7.5,1.1785113019775793
