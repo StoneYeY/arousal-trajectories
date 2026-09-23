@@ -52,6 +52,3 @@ the round-3 analyses (`round3_analysis.py`), figures (`make_figs.py`), the compa
 (`make_release.py`). Generation scripts (`audit_generate_sa3.py`, `audit_generate.py`) were run on a separate GPU host with
 stable-audio-tools 0.0.20 / audiocraft; sampler settings and seeds are in the score tables.
 
-## Ethics
-The listening test involved 24 adult volunteers; no compensation was paid, no personal data beyond age, years of musical
-training and headphone use were recorded, and ratings are released under pseudonyms P01–P24.

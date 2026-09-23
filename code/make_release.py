@@ -60,7 +60,6 @@ ipack = joblib.load(os.path.join(R, "verifier", "verifier_arousal_mean_independe
 deam = pd.read_csv(os.path.join(R, "deam_features.csv")).dropna(subset=["arousal_mean"]).reset_index(drop=True)
 X = deam[COLS].values; y = deam["arousal_mean"].values; XI = deam[ICOLS].values
 
-
 def load_feats(pattern, key="feat_raw"):
     rows, seen = [], set()
     for f in sorted(glob.glob(pattern)):
@@ -75,7 +74,6 @@ def load_feats(pattern, key="feat_raw"):
     ids = [r["clip_id"] for r in rows]
     G = np.array([[r[key].get(c, np.nan) for c in COLS] for r in rows])
     return ids, G
-
 
 sets = {"sa3": load_feats(os.path.join(R, "sa3_features*.jsonl")),
         "sa3_lufs": load_feats(os.path.join(R, "sa3_features*.jsonl"), key="feat_ln"),
@@ -284,9 +282,6 @@ the round-3 analyses (`round3_analysis.py`), figures (`make_figs.py`), the compa
 (`make_release.py`). Generation scripts (`audit_generate_sa3.py`, `audit_generate.py`) were run on a separate GPU host with
 stable-audio-tools 0.0.20 / audiocraft; sampler settings and seeds are in the score tables.
 
-## Ethics
-The listening test involved 24 adult volunteers; no compensation was paid, no personal data beyond age, years of musical
-training and headphone use were recorded, and ratings are released under pseudonyms P01–P24.
 """
 open(os.path.join(OUT, "README.md"), "w", encoding="utf-8").write(README)
 print("release written to", OUT)
